@@ -29,6 +29,14 @@
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">接入SDK</h1></header><article><div><span><h1><a class="anchor" aria-hidden="true" id="快速体验"></a><a href="#快速体验" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>快速体验</h1>
 <h2><a class="anchor" aria-hidden="true" id="libpag-for-android-快速体验"></a><a href="#libpag-for-android-快速体验" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>libpag for Android 快速体验</h2>
+<p>在我们的工程里面有一个示例工程，体验方法如下：</p>
+<ul>
+<li><p>下载源码到本地</p>
+<pre><code class="hljs css language-groovy">    git clone <span class="hljs-string">http:</span><span class="hljs-comment">//git.code.oa.com/MaoBing/libpag.git</span>
+</code></pre></li>
+<li><p>打开Android Studio 导入 <strong>libpag/android</strong> 这个目录</p></li>
+<li><p>sync 然后再编译运行</p></li>
+</ul>
 <h2><a class="anchor" aria-hidden="true" id="libpag-for-ios-快速体验"></a><a href="#libpag-for-ios-快速体验" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>libpag for iOS 快速体验</h2>
 <p>可以通过拉取项目范例工程进行快速体验，方法如下：</p>
 <ul>
@@ -49,12 +57,15 @@
 <li><strong>支持android 4.4及以上系统</strong></li>
 <li><strong>推荐使用gralde 3.0及以上版本编译</strong></li>
 </ul>
-<hr>
-<h3><a class="anchor" aria-hidden="true" id="gradle接入"></a><a href="#gradle接入" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>gradle接入</h3>
-<hr>
-<p>libpag库已经部署到公司内网，所以首先确保能够连接公司内网.</p>
-<h3><a class="anchor" aria-hidden="true" id="添加gradle依赖"></a><a href="#添加gradle依赖" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>添加gradle依赖</h3>
-<p>在项目的build.gradle中，添加maven的内网url：<a href="http://maven.oa.com/nexus/content/groups/androidbuild">http://maven.oa.com/nexus/content/groups/androidbuild</a></p>
+<h3><a class="anchor" aria-hidden="true" id="安装-br"></a><a href="#安装-br" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>安装<br></h3>
+<p>  推荐使用以下两种接入libpag：</p>
+<ul>
+<li><p><strong>gradle接入</strong></p>
+<ol>
+<li><p>libpag库已经部署到公司内网，所以首先确保能够连接公司内网</p></li>
+<li><p>添加gralde依赖</p>
+<p>在项目的build.gradle中，添加maven的内网url：<a href="http://maven.oa.com/nexus/content/groups/androidbuild">http://maven.oa.com/nexus/content/groups/androidbuild</a></p></li>
+</ol>
 <pre><code class="hljs css language-groovy">buildscript {
     repositories {
         maven {
@@ -68,28 +79,35 @@
     <span class="hljs-comment">//libpag的核心库</span>
     implementation <span class="hljs-string">'com.tencent.tav:libpag:1.3.3'</span>
 }
-</code></pre>
-<hr>
-<h3><a class="anchor" aria-hidden="true" id="源码接入"></a><a href="#源码接入" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>源码接入</h3>
-<hr>
-<h3><a class="anchor" aria-hidden="true" id="clone-源码"></a><a href="#clone-源码" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Clone 源码</h3>
-<p>首先将libpag的源码clone到本地，最好跟你的项目工程在同一级目录。</p>
+</code></pre></li>
+</ul>
+<ul>
+<li><p><strong>源码接入</strong></p>
+<ol>
+<li><p>Clone 源码</p>
+<p>首先将libpag的源码clone到本地，最好跟你的项目工程在同一级目录。</p></li>
+</ol>
 <pre><code class="hljs css language-groovy">git clone <span class="hljs-string">http:</span><span class="hljs-comment">//git.code.oa.com/MaoBing/libpag.git</span>
 </code></pre>
-<h3><a class="anchor" aria-hidden="true" id="配置settingsgradle文件"></a><a href="#配置settingsgradle文件" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>配置settings.gradle文件</h3>
-<p>修改settings.gradle配置文件，将libpag作为project引入.</p>
+<ol start="2">
+<li><p>配置settings.gradle文件</p>
+<p>修改settings.gradle配置文件，将libpag作为project引入.</p></li>
+</ol>
 <pre><code class="hljs">include <span class="hljs-string">':libpag'</span>
 <span class="hljs-comment">// projectDir设置成libpag相对于主工程的位置</span>
 <span class="hljs-function"><span class="hljs-title">project</span><span class="hljs-params">(<span class="hljs-string">':libpag'</span>)</span></span><span class="hljs-selector-class">.projectDir</span> = new File(rootDir.getParent()+<span class="hljs-string">'/libpag/android/libpag'</span>)
 </code></pre>
-<h3><a class="anchor" aria-hidden="true" id="配置app的buildgradle文件"></a><a href="#配置app的buildgradle文件" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>配置APP的build.gradle文件</h3>
-<p>修改App的builde.gradle文件，将libpag作为project引入。</p>
+<ol start="3">
+<li><p>配置APP的build.gradle文件</p>
+<p>修改App的builde.gradle文件，将libpag作为project引入。</p></li>
+</ol>
 <pre><code class="hljs css language-groovy">dependencies {
     <span class="hljs-comment">//libpag project</span>
     implementation project(<span class="hljs-string">':libpag'</span>)
 }
 </code></pre>
-<p>配置完以后，sync一下，再编译。<br/><br/></p>
+<p>配置完以后，sync一下，再编译。<br/><br/></p></li>
+</ul>
 <h2><a class="anchor" aria-hidden="true" id="libpag-for-ios-接入"></a><a href="#libpag-for-ios-接入" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>libpag for iOS 接入</h2>
 <h3><a class="anchor" aria-hidden="true" id="基本要求-br"></a><a href="#基本要求-br" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>基本要求<br/></h3>
 <ul>
@@ -97,7 +115,7 @@
 <li>libpag 需要使用Xcode8.0以上版本进行编译</li>
 <li>需要使用Objective-C++<br></li>
 </ul>
-<h3><a class="anchor" aria-hidden="true" id="安装-br"></a><a href="#安装-br" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>安装<br></h3>
+<h3><a class="anchor" aria-hidden="true" id="安装-br-1"></a><a href="#安装-br-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>安装<br></h3>
 <p> 推荐使用以下两种安装方式：</p>
 <ul>
 <li><strong>通过CocoaPods安装</strong></li>
@@ -154,4 +172,4 @@ pod 'libpag', :git =&gt; '<a href="http://git.code.oa.com/MaoBing/libpag.git'">h
 <li>单独创建一个测试工程，用CocoPods引用并编译出一个libpag.framework，拷贝出来放进项目中使用</li>
 </ol></li>
 </ul>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/update.html"><span class="arrow-prev">← </span><span>检查更新</span></a><a class="docs-next button" href="/docs/pag-export.html"><span>导出PAG文件</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#libpag-for-android-快速体验">libpag for Android 快速体验</a></li><li><a href="#libpag-for-ios-快速体验">libpag for iOS 快速体验</a></li><li><a href="#libpag-for-android-接入">libpag for Android 接入</a><ul class="toc-headings"><li><a href="#基本要求">基本要求</a></li><li><a href="#gradle接入">gradle接入</a></li><li><a href="#添加gradle依赖">添加gradle依赖</a></li><li><a href="#源码接入">源码接入</a></li><li><a href="#clone-源码">Clone 源码</a></li><li><a href="#配置settingsgradle文件">配置settings.gradle文件</a></li><li><a href="#配置app的buildgradle文件">配置APP的build.gradle文件</a></li></ul></li><li><a href="#libpag-for-ios-接入">libpag for iOS 接入</a><ul class="toc-headings"><li><a href="#基本要求-br">基本要求</a></li><li><a href="#安装-br">安装</a></li><li><a href="#注意事项-br">注意事项</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="copyright">Copyright © 2019 pag.im</section></footer></div></body></html>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/update.html"><span class="arrow-prev">← </span><span>检查更新</span></a><a class="docs-next button" href="/docs/pag-export.html"><span>导出PAG文件</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#libpag-for-android-快速体验">libpag for Android 快速体验</a></li><li><a href="#libpag-for-ios-快速体验">libpag for iOS 快速体验</a></li><li><a href="#libpag-for-android-接入">libpag for Android 接入</a><ul class="toc-headings"><li><a href="#基本要求">基本要求</a></li><li><a href="#安装-br">安装</a></li></ul></li><li><a href="#libpag-for-ios-接入">libpag for iOS 接入</a><ul class="toc-headings"><li><a href="#基本要求-br">基本要求</a></li><li><a href="#安装-br-1">安装</a></li><li><a href="#注意事项-br">注意事项</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="copyright">Copyright © 2019 pag.im</section></footer></div></body></html>
